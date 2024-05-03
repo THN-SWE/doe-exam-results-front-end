@@ -1,0 +1,92 @@
+ 
+#main{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    row-gap: 10px;
+}
+ 
+.banner{
+     
+    align-content: center;
+    width: inherit;
+    height:100px;
+    background-image: url(BannerMobile.jpg);
+    background-size: 100% 100%;
+   
+}
+.menu{
+    display: flex;
+    gap: 10px;
+}
+.findresults{
+    padding: 20px;
+    background-color:#D8D8D8;
+    border:1px #b8b8b8 solid ;
+    border-radius: 5px;
+    
+}
+.noticebox{
+    padding: 10px;
+    background-color: #EBEB27;
+    border:5px #8A1D1D solid ;
+    outline: 5px #DE3030 solid;
+   
+  
+}
+.noticebox > p {
+    text-align:center;
+    word-wrap: break-word;
+    font-weight: 400;
+    font-size: 14px ;
+}
+.user-input{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0 20px 0;
+    gap: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  
+}
+
+.index{
+    display: flex;
+    
+}
+.redandblue {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+.redandblue > button {
+    padding: 7px 18px 7px 18px;
+    min-width: 200px;
+}
+.printbtns{
+    display: flex;
+    justify-content:flex-end;
+    gap: 10px;
+    
+}
+
+footer{
+    border: none;
+    background-color: #3A3A3A;
+    display: flex;
+    flex-direction: column;
+    color: white;
+   padding: 20px;
+   font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans";
+   
+}
+
+#sl{
+    padding: 10px 10px 10px 30px;
+    width: 160px;
+    filter: drop-shadow(rgb(255, 255, 255) 0px 0px 3px);
+    align-self:center;
+
+
+}
